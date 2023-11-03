@@ -54,6 +54,7 @@
 	text-shadow:0px 1px 0px #091408;
 	box-shadow: -4px 4px 9px -4px #000000;
 	transition: 0.1s;
+	animation: myAnimImage 2s ease 0s 1 normal forwards;
 }
 .myButton:hover {
 	background-color: beige;

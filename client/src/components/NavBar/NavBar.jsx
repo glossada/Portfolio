@@ -9,12 +9,13 @@ function NavBar() {
   return (
     <Navbar expand="lg" data-bs-theme="dark" className={style.container}>
       <Container >
-        <h1 className={style.customBrand} href="/">Hi! Im Gabriel!</h1>
+        <h1 className={style.customBrand}>Hi! Im Gabriel!</h1>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link className={style.links} to='/'>¿Quien Soy?</Link>
+            <Link className={style.links} to='/bio'>¿Quien Soy?</Link>
             <Link className={style.links} to='/'>Mis Proyectos</Link>
+            <Link className={style.links} to='/'>Inicio</Link>
             
           </Nav>
         </Navbar.Collapse>
