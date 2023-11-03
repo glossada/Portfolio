@@ -17,6 +17,51 @@
 }
 
 .image{
+	margin-top: 20px;
     animation: myAnimImage 1s ease 0s 1 normal forwards;
     height: 50%;
+	object-fit: cover;
+	border-radius: 100%;
+	box-shadow: -5px 5px 10px 0px #000000;
+	background-color: rgba(34, 52, 83, 0.658);
+	object-fit: cover;
+}
+
+.textSpect{
+	margin-top: 20px;
+	color: beige;
+	animation: myAnimImage 2s ease 0s 1 normal forwards;
+	font-size: large;
+}
+
+.nombre{
+	margin-top: 20px;
+	color: beige;
+	animation: myAnimImage 1s ease 0s 1 normal forwards;
+}
+
+.myButton {
+	background-color:transparent;
+	border-radius:8px;
+	border:1px solid beige;
+	display:inline-block;
+	cursor:pointer;
+	color:beige;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 63px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #091408;
+	box-shadow: -4px 4px 9px -4px #000000;
+	transition: 0.1s;
+}
+.myButton:hover {
+	background-color: beige;
+	color: #1b1e20;
+	font-weight: bold;
+	border:2px solid #1b1e20;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }

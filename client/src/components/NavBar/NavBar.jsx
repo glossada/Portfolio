@@ -7,10 +7,10 @@ import style from './NavBar.module.css'
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className={style.container}>
+    <Navbar expand="lg" data-bs-theme="dark" className={style.container}>
       <Container >
         <h1 className={style.customBrand} href="/">Hi! Im Gabriel!</h1>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Link className={style.links} to='/'>¿Quien Soy?</Link>

@@ -11,6 +11,14 @@ function Landing() {
     <div className={styles.container} style={{ height: '100vh' }}> 
       <NavBar/>
       <img className={styles.image} src={image} alt="logo" />
+      <h1 className={styles.nombre}>Gabriel Lossada</h1>
+      <p className={styles.textSpect}>Full Stack developer | Analista de sistema | Java | JavaScript | React | Redux | Express | PostgreSQL | MySQL | Sequqlize | Nivel de Ingles: C2 Proficient</p>
+      <Container>
+      <Row className="justify-content-md-center">
+        <Col lg="3"><a href="#" className={styles.myButton}>Sobre mi</a></Col>
+        <Col lg="3"><a href="#" className={styles.myButton}>Proyectos</a></Col>
+      </Row>
+    </Container>
     </div>
   );
 }
