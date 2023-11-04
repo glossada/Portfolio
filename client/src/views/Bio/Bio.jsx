@@ -52,6 +52,9 @@ function Bio() {
         </IconContext.Provider>
         </div>
         </div>
+        <div>
+          <h1>---------</h1>
+        </div>
     </div>
   );
 }

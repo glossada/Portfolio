@@ -9,15 +9,14 @@
 		transform: scale(1);
 	}
 }
-@keyframes myAnimIcon {
+
+@keyframes myAnim {
 	0% {
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-		transform: scale(1);
+		transform: scale(0.5);
 	}
 
 	100% {
-		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-		transform: scale(1.1);
+		transform: scale(1);
 	}
 }
 
@@ -27,7 +26,6 @@
     margin: 0;
     
 }
-
 .containerP{
     display: flex; /* Utilizamos flexbox para centrar verticalmente */
     align-items: center;
@@ -37,7 +35,7 @@
 .player{
     margin-top: 20px;
     border: 2px solid;
-    width: 500px;
+    /* width: 500px; */
     border: 2px solid;
     animation: myAnimImage 1s ease 0s 1 normal forwards;
     box-shadow: -5px 5px 10px 0px #141414;
@@ -55,12 +53,15 @@
     color: beige;
     width: 50%;
 }
+.title{
+ color: beige;
+ margin-top: 20px;
+ animation: myAnimImage 1s ease 0s 1 normal forwards;
+}
 
-.icons{
-    display: flex; /* Utilizamos flexbox para centrar verticalmente */
-    align-items: center;
-    justify-content: center; 
-    gap: 30px
+.titleProyect{
+    color: beige;
+    animation: myAnimImage 1s ease 0s 1 normal forwards;
 }
 
 .links {
@@ -70,5 +71,6 @@
 }
 
 .links:hover{
-    animation: myAnimIcon 0.5s ease 0s 1 normal forwards;
+    font-weight: bolder;
+    
 }

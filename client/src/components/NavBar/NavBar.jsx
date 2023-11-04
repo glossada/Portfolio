@@ -14,7 +14,7 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Link className={style.links} to='/bio'>¿Quien Soy?</Link>
-            <Link className={style.links} to='/'>Mis Proyectos</Link>
+            <Link className={style.links} to='/proyects'>Mis Proyectos</Link>
             <Link className={style.links} to='/'>Inicio</Link>
             
           </Nav>

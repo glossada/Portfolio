@@ -16,7 +16,7 @@ function Landing() {
       <Container>
       <Row className="justify-content-md-center">
         <Col lg="3"><a href="bio" className={styles.myButton}>Sobre mi</a></Col>
-        <Col lg="3"><a href="#" className={styles.myButton}>Proyectos</a></Col>
+        <Col lg="3"><a href="proyects" className={styles.myButton}>Proyectos</a></Col>
       </Row>
     </Container>
     </div>
