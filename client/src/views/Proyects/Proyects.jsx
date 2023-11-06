@@ -23,6 +23,7 @@ function Proyects() {
         <div className={styles.containerP}>
       <div className={styles.player}>
       <ReactPlayer
+        controls={true}
           url='https://youtu.be/Dwf0t7uz5cg'
           className='react-player'
           width='900px'
@@ -56,6 +57,7 @@ function Proyects() {
         <div className={styles.containerP}>
       <div className={styles.player}>
       <ReactPlayer
+        controls={true}
           url='https://youtu.be/fizm42GEE14'
           className='react-player'
           width='900px'
@@ -70,6 +72,34 @@ function Proyects() {
             <p>Link al proyecto</p>
         </Link>
             <p>Tecnologias: Java, MySQL.</p>
+            <br />
+            </div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+        <div>
+        <Link className={styles.links} to='https://foodiefavs.vercel.app/home'>
+            <h3>Mi primer proyecto con React 🥹</h3>
+        </Link>
+        </div>
+        <div className={styles.containerP}>
+      <div className={styles.player}>
+      <ReactPlayer
+        controls={true}
+          url='https://youtu.be/soDXyHsHXQU'
+          className='react-player'
+          width='900px'
+          height='600px'
+        />
+        </div>
+        </div>
+        <div className={styles.containerT}>
+          <div className={styles.text}>
+            <p>Aplicación con recetas de cocina. Las recetas son obtenidas desde una API y tambien se pueden agregar recetas personalizadas que se almacenan en una base de datos, posee filtros, ordenamientos, busqueda por nombre y full CRUD para las recetas en DB </p>
+            <Link className={styles.links} to='https://foodiefavs.vercel.app/'>
+            <p>Link al proyecto</p>
+        </Link>
+            <p>Tecnologias: JavaScript, React, Redux, Express, Sequqlize, PostgreSQL y Sequelize.</p>
             <br />
             </div>
             </div>
