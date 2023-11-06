@@ -11,7 +11,8 @@ function Proyects() {
     return (
       <div className={styles.container} style={{ height: '100%' }}> 
         <NavBar/>
-        <h1 className={styles.title}>Mis Proyectos</h1>
+        {/* <h1 className={styles.title}>Mis Proyectos</h1> */}
+        <p className={styles.title}>Estos son algunos de mis proytectos 😎</p>
         <Carousel>
         <Carousel.Item>
         <div>
@@ -42,6 +43,33 @@ function Proyects() {
             <p>Link repositorio Front</p>
         </Link>
             <p>Tecnologias: JavaScript, React, Redux, Express, Sequqlize, PostgreSQL y Sequelize.</p>
+            <br />
+            </div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+        <div>
+        <Link className={styles.links} to='https://github.com/glossada/personalLoans'>
+            <h3>Préstamos personales y Balance</h3>
+        </Link>
+        </div>
+        <div className={styles.containerP}>
+      <div className={styles.player}>
+      <ReactPlayer
+          url='https://youtu.be/fizm42GEE14'
+          className='react-player'
+          width='900px'
+          height='600px'
+        />
+        </div>
+        </div>
+        <div className={styles.containerT}>
+          <div className={styles.text}>
+            <p>Aplicación para administrar préstamos personales, balance y aviso de deuda</p>
+            <Link className={styles.links} to='https://github.com/glossada/personalLoans'>
+            <p>Link al proyecto</p>
+        </Link>
+            <p>Tecnologias: Java, MySQL.</p>
             <br />
             </div>
             </div>
